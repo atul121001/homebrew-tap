@@ -4,26 +4,26 @@
 class Mcpload < Formula
   desc "AI-agent load & soak testing for MCP servers"
   homepage "https://github.com/atul121001/mcpload"
-  version "0.4.1"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/atul121001/mcpload/releases/download/v0.4.1/mcpload_0.4.1_darwin_arm64.tar.gz"
-      sha256 "e0a85dc86b3c3938c11b42c0b5898e2632bc37f1eca7eb3007a6a78f2c22edca"
+      url "https://github.com/atul121001/mcpload/releases/download/v0.5.0/mcpload_0.5.0_darwin_arm64.tar.gz"
+      sha256 "c6970b54600f7b99afac59d9494961a5d97378b6bef631951b419ec83d273cc2"
     else
-      url "https://github.com/atul121001/mcpload/releases/download/v0.4.1/mcpload_0.4.1_darwin_amd64.tar.gz"
-      sha256 "f93cd726cd6bbd4aa5026f54268e20ae104aa91dc6cb644c25a0279b19a9e51c"
+      url "https://github.com/atul121001/mcpload/releases/download/v0.5.0/mcpload_0.5.0_darwin_amd64.tar.gz"
+      sha256 "f98964b5596d2354e6edafbccf8e20e12623a7d35a78d69061743d2446edef19"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/atul121001/mcpload/releases/download/v0.4.1/mcpload_0.4.1_linux_arm64.tar.gz"
-      sha256 "f53f844aa2d3a77c871d03b3fe6c43d8ff02e5cf40d4ecdc5041ec1992b63dc1"
+      url "https://github.com/atul121001/mcpload/releases/download/v0.5.0/mcpload_0.5.0_linux_arm64.tar.gz"
+      sha256 "1d1e5b10295301b338035aa55f34c4c74a27b9044c2b5ad3c38f32813a4b40ee"
     else
-      url "https://github.com/atul121001/mcpload/releases/download/v0.4.1/mcpload_0.4.1_linux_amd64.tar.gz"
-      sha256 "4b675e639eb57381c3b1f8c2533812f21402cb9c4b46b0eed7b2ef1b0e340cf9"
+      url "https://github.com/atul121001/mcpload/releases/download/v0.5.0/mcpload_0.5.0_linux_amd64.tar.gz"
+      sha256 "e8a2e54799c1e799eca71bb3188cfdc923a7f384030337e2a167832bad0cd670"
     end
   end
 
